@@ -1,0 +1,389 @@
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lato-black;
+  src: url('fonts/Lato-Black.ttf');
+}
+
+.lato {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.lato-black {
+  font-family: Lato-black, Arial, Helvetica, sans-serif;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.red-bg {
+  background-color: #ec5242;
+}
+
+.dark {
+  color: #272a31;
+}
+
+.dark-bg {
+  background-color: #272a31;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.light {
+  color: #d3d3d3;
+}
+
+.light-bg {
+  background-color: #d3d3d3;
+}
+
+#menu-list,
+#enroll-button,
+#closeIcon,
+#indicator0,
+#det-message {
+  display: none;
+}
+
+h1,
+h2,
+p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-heading {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+#user-menu li {
+  font-weight: 400;
+}
+
+#closeIcon {
+  position: absolute;
+  font-size: 40px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  right: 12px;
+  top: 12px;
+}
+
+#user-menu-bar,
+#user-menu,
+#social-media-icons {
+  padding-right: 12px;
+  background-color: #3e3e3e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+}
+
+#user-menu-bar {
+  width: 100vw;
+  height: 3.5vh;
+  padding-right: 0;
+}
+
+.navbar {
+  position: absolute;
+  background-color: unset;
+  display: flex;
+  top: 3vh;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  justify-content: space-between;
+}
+
+#logo-container {
+  background-image: url("images/CWA_logo_new.png");
+  width: 150px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#hamburger-icon {
+  width: 37px;
+  height: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-bg-container {
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/89780.jpg");
+  width: 100vw;
+  height: 60vh;
+  background-size: cover;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4vh;
+  width: 95%;
+  height: 70%;
+}
+
+#greeting-message {
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+#main-message {
+  font-size: 7vw;
+  overflow-wrap: break-word;
+  width: 80%;
+  text-align: center;
+}
+
+#det-message-container {
+  padding: 10px;
+  border: solid 2px #d3d3d3;
+  width: 90%;
+}
+
+#det-message-mob {
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#info-message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-message {
+  text-align: center;
+  font-size: 14px;
+}
+
+#email-message {
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.indicator {
+  width: 20%;
+  height: 1px;
+  border: solid 1px #ec5242;
+  border-radius: 2px;
+  max-width: 115px;
+}
+
+#howtojoin-text {
+  text-align: center;
+  width: 80%;
+}
+
+#howtojoin-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#howtojoin-txt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+#howtojoin-img {
+  background-image: url('images/CWA_logo_new-howtojoin.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 90%;
+  height: 145px;
+  border: solid 1px #d3d3d3;
+  max-width: 400px;
+}
+
+#testamonials-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  border: solid 1px #d3d3d3;
+}
+
+#test-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#testamonials-heading {
+  width: 80%;
+}
+
+#testamonials-text {
+  width: 80%;
+  text-align: center;
+}
+
+#testamonial-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.test-card {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90%;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#test-card1 {
+  background-image: url('images/testamonial-1.jpg');
+}
+
+#test-card2 {
+  background-image: url('images/testamonial-2.jpg');
+}
+
+.test-date-txt {
+  font-size: 32px;
+}
+
+.test-detail-txt {
+  text-align: center;
+  width: 70%;
+}
+
+#partners {
+  padding-bottom: 15px;
+}
+
+#partner-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+#heading-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  gap: 5px;
+}
+
+.partner-logo {
+  width: 90px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.part-logo-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+#logo1 {
+  background-image: url("images/microverselogo.png");
+}
+
+#footer-logo {
+  background-image: url("images/CWA_logo_new.png");
+  min-width: 160px;
+  min-height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 36px;
+  width: 100vw;
+  min-height: 124px;
+}
+
+#copyright-txt {
+  font-size: 12px;
+}
