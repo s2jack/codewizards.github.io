@@ -1,0 +1,441 @@
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lato-black;
+  src: url('fonts/Lato-Black.ttf');
+}
+
+.lato {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.lato-black {
+  font-family: Lato-black, Arial, Helvetica, sans-serif;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.red-bg {
+  background-color: #ec5242;
+}
+
+.dark {
+  color: #272a31;
+}
+
+.dark-bg {
+  background-color: #272a31;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.light {
+  color: #d3d3d3;
+}
+
+.light-bg {
+  background-color: #d3d3d3;
+}
+
+#menu-list,
+#menu-container,
+#enroll-button,
+#closeIcon {
+  display: none;
+}
+
+h1,
+h2,
+p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-heading {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#user-menu li {
+  font-weight: 400;
+}
+
+#closeIcon {
+  position: absolute;
+  font-size: 40px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  right: 12px;
+  top: 12px;
+}
+
+#user-menu-bar,
+#user-menu,
+#social-media-icons {
+  padding-right: 12px;
+  background-color: #3e3e3e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+}
+
+#user-menu-bar {
+  padding-right: 0;
+  width: 100vw;
+  height: 3.5vh;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  top: 3vh;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  justify-content: space-between;
+  background-color: unset;
+}
+
+.menu-element {
+  font-size: 12px;
+}
+
+#logo-container {
+  background-image: url("images/CWA_logo_new.png");
+  width: 150px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#hamburger-icon {
+  width: 37px;
+  height: 16px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#home {
+  width: 100vw;
+  height: 60vh;
+}
+
+#home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("images/89780.jpg");
+  width: 100vw;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2.4vh;
+  width: 95%;
+  height: 70%;
+}
+
+#greeting-message {
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+#main-message {
+  font-size: 6vw;
+  overflow-wrap: break-word;
+  width: 67%;
+  text-transform: uppercase;
+}
+
+#det-message-container {
+  padding: 10px;
+  border: solid 2px #fff;
+  width: 95%;
+}
+
+#det-message {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#date-message {
+  font-size: 20px;
+}
+
+#location-message {
+  font-size: 14px;
+}
+
+#program-container {
+  background-image: url("images/program-bg-hq.jpg");
+  width: 100vw;
+  height: 71vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 19px 0;
+}
+
+#heading-container,
+#heading-container2,
+#heading-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 6vh;
+  gap: 5px;
+}
+
+.indicator {
+  width: 40%;
+  height: 2px;
+  border: solid 1px #ec5242;
+  border-radius: 2px;
+}
+
+#program-cards-container {
+  display: grid;
+  gap: 10px;
+  width: 94%;
+  height: 80%;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.pr-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(78, 82, 90, 0.7);
+  gap: 14px;
+}
+
+#pr-card1 {
+  grid-row: 1/2;
+}
+
+#pr-card2 {
+  grid-row: 2/3;
+}
+
+.pr-card3 {
+  grid-row: 3/4;
+}
+
+.pr-card4 {
+  grid-row: 4/5;
+}
+
+.pr-card5 {
+  grid-row: 5/6;
+}
+
+.pr-card-icon {
+  padding-left: 24px;
+  font-size: 40px;
+}
+
+.pr-heading {
+  min-width: 84px;
+  font-size: 16px;
+}
+
+.pr-desc-text {
+  font-size: 14px;
+  padding-right: 16px;
+}
+
+#join-btn {
+  width: 80%;
+  min-height: 60px;
+  font-size: 16px;
+  border-width: 0;
+}
+
+#program-link {
+  display: none;
+  text-decoration: underline;
+}
+
+#indicator2 {
+  width: 10%;
+}
+
+#speakers,
+#partners {
+  padding-bottom: 15px;
+}
+
+#sp-img1 {
+  background-image: url("images/sp-image1.png");
+}
+
+#sp-img2 {
+  background-image: url("images/sp-image2.png");
+}
+
+#sp-img3 {
+  background-image: url("images/sp-image3.png");
+}
+
+#sp-img4 {
+  background-image: url("images/sp-image4.png");
+}
+
+#sp-img5 {
+  background-image: url("images/sp-image5.png");
+}
+
+#sp-img6 {
+  background-image: url("images/sp-image6.png");
+}
+
+.sp-img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 121.5px;
+  height: 121.5px;
+  min-width: 40.5px;
+}
+
+.sp-indicator {
+  border: solid 1px #3e3e3e;
+  border-radius: 2px;
+  width: 48px;
+}
+
+#speaker-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.speaker-card {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+  border: solid 1px #d3d3d3;
+}
+
+.sp-info {
+  padding-top: 15px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sp-name {
+  font-size: 15px;
+}
+
+.sp-title {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.sp-bio {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#partner-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.partner-logo {
+  width: 90px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#logo1 {
+  background-image: url("images/microverselogo.png");
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 12px 12px 12px;
+}
+
+#copyright-txt {
+  width: 70%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.part-logo-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+#indicator4 {
+  width: 9%;
+}
