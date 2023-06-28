@@ -161,6 +161,7 @@
 #program-container {
   height: 48vh;
   gap: 66px;
+  min-height: 400px;
 }
 
 #program-cards-container {
