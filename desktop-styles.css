@@ -64,7 +64,7 @@
 
 #menu-list {
   display: flex;
-  gap: 12px;
+  gap: 48px;
   align-items: center;
   justify-content: center;
 }
@@ -113,10 +113,6 @@
 
 #user-menu li {
   font-size: 12px;
-}
-
-#menu-list {
-  gap: 48px;
 }
 
 .menu-element {
