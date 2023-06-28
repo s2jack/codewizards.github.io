@@ -76,6 +76,18 @@
   background-color: #fff;
 }
 
+#user-menu-bar,
+#user-menu,
+#social-media-icons {
+  padding-right: 12px;
+  background-color: #3e3e3e;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+}
+
 #user-menu-bar {
   width: 100vw;
   height: 3.5vh;
@@ -86,12 +98,13 @@
 }
 
 #logo-container {
-  background-image: url("images/CWA_logo_hq.png");
+  display: block;
   width: 210px;
   height: 110px;
 }
 
 #enroll-button {
+  background-color: unset;
   font-size: 14px;
   padding: 6px;
   display: block;
@@ -100,6 +113,10 @@
 
 #user-menu li {
   font-size: 12px;
+}
+
+#menu-list {
+  gap: 48px;
 }
 
 .menu-element {
@@ -230,6 +247,10 @@
   gap: 24px;
 }
 
+.sp-indicator {
+  display: block;
+}
+
 #indicator2 {
   width: 30%;
 }
@@ -259,6 +280,26 @@
 }
 
 .partner-logo {
+  height: 49px;
   width: 16.6666667vw;
   max-width: 236px;
+}
+
+#footer-logo-container {
+  width: 228px;
+  height: 120px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0;
+  padding: 24px 0 12px 0;
+}
+
+#copyright-txt {
+  color: #272a31;
+  width: 40%;
+  font-size: 14px;
 }

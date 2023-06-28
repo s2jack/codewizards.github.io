@@ -147,7 +147,7 @@ If you like this project please drop a comment.
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+Original design idea by Cindy Shin in Behance.
 
 I would like to thank Microverse Family and all my coding partners.
 

@@ -52,7 +52,9 @@
 #enroll-button,
 #closeIcon,
 #indicator0,
-#det-message {
+#det-message,
+#logo-container,
+#user-menu-bar {
   display: none;
 }
 
@@ -108,24 +110,6 @@ body {
   top: 12px;
 }
 
-#user-menu-bar,
-#user-menu,
-#social-media-icons {
-  padding-right: 12px;
-  background-color: #3e3e3e;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 12px;
-  color: #fff;
-}
-
-#user-menu-bar {
-  width: 100vw;
-  height: 3.5vh;
-  padding-right: 0;
-}
-
 .navbar {
   position: absolute;
   background-color: unset;
@@ -139,7 +123,6 @@ body {
 }
 
 #logo-container {
-  background-image: url("images/CWA_logo_new.png");
   width: 150px;
   height: 40px;
   background-size: contain;
@@ -147,6 +130,9 @@ body {
 }
 
 #hamburger-icon {
+  margin-left: 12px;
+  margin-right: auto;
+  font-size: 24px;
   width: 37px;
   height: 16px;
 }
@@ -350,7 +336,7 @@ main {
 
 .partner-logo {
   width: 90px;
-  height: 40px;
+  height: 25px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -363,27 +349,26 @@ main {
   gap: 12px;
 }
 
-#logo1 {
-  background-image: url("images/microverselogo.png");
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  background-color: #fff;
+  width: 100vw;
 }
 
-#footer-logo {
-  background-image: url("images/CWA_logo_new.png");
-  min-width: 160px;
-  min-height: 40px;
+#footer-logo-container {
+  background-image: url("images/CWA_logo_hq.png");
+  width: 210px;
+  height: 88px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 36px;
-  width: 100vw;
-  min-height: 124px;
-}
-
 #copyright-txt {
+  color: #272a31;
+  width: 70%;
   font-size: 12px;
+  text-align: center;
 }
