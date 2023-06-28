@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lato-black;
+  src: url('fonts/Lato-Black.ttf');
+}
+
+.lato {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.lato-black {
+  font-family: Lato-black, Arial, Helvetica, sans-serif;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.red-bg {
+  background-color: #ec5242;
+}
+
+.dark {
+  color: #272a31;
+}
+
+.dark-bg {
+  background-color: #272a31;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.light {
+  color: #d3d3d3;
+}
+
+.light-bg {
+  background-color: #d3d3d3;
+}
+
+#hamburger-icon,
+#join-btn,
+#det-message-mob {
+  display: none;
+}
+
+#menu-container {
+  display: block;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#menu-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  top: 3.5vh;
+  justify-content: space-around;
+  box-shadow: 0 8px 5px -8px #272a31;
+  background-color: #fff;
+}
+
+#user-menu-bar {
+  width: 100vw;
+  height: 3.5vh;
+}
+
+#user-menu {
+  padding-right: 150px;
+}
+
+#logo-container {
+  background-image: url("images/CWA_logo_hq.png");
+  width: 210px;
+  height: 110px;
+}
+
+#enroll-button {
+  font-size: 14px;
+  padding: 6px;
+  display: block;
+  border: solid 3px #ec5242;
+}
+
+#user-menu li {
+  font-size: 12px;
+}
+
+.menu-element {
+  font-size: 14px;
+}
+
+#about-bg-container {
+  height: 100vh;
+}
+
+#main-message {
+  font-size: 4vw;
+  width: 55%;
+  text-transform: uppercase;
+}
+
+#indicator0 {
+  display: block;
+  width: 3%;
+}
+
+#det-message-container {
+  width: 65%;
+  padding: 24px;
+}
+
+#det-message {
+  display: block;
+  text-align: center;
+}
+
+#howtojoin-container {
+  gap: 36px;
+  padding: 48px 0;
+}
+
+#testamonials-container {
+  padding: 72px 0;
+  gap: 48px;
+}
+
+#testamonial-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.test-card {
+  width: 45%;
+}
+
+#partners {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#partner-logo-container {
+  flex-direction: row;
+  justify-content: center;
+  gap: 6px;
+}
+
+.partner-logo {
+  width: 16.6666667vw;
+  max-width: 236px;
+}

@@ -1,0 +1,264 @@
+@font-face {
+  font-family: Lato;
+  src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: Lato-black;
+  src: url('fonts/Lato-Black.ttf');
+}
+
+.lato {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.lato-black {
+  font-family: Lato-black, Arial, Helvetica, sans-serif;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.red-bg {
+  background-color: #ec5242;
+}
+
+.dark {
+  color: #272a31;
+}
+
+.dark-bg {
+  background-color: #272a31;
+}
+
+.white {
+  color: #fff;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.light {
+  color: #d3d3d3;
+}
+
+.light-bg {
+  background-color: #d3d3d3;
+}
+
+#hamburger-icon,
+#join-btn {
+  display: none;
+}
+
+#menu-container {
+  display: block;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#menu-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  top: 3.5vh;
+  justify-content: space-around;
+  box-shadow: 0 8px 5px -8px #272a31;
+  background-color: #fff;
+}
+
+#user-menu-bar {
+  width: 100vw;
+  height: 3.5vh;
+}
+
+#user-menu {
+  padding-right: 150px;
+}
+
+#logo-container {
+  background-image: url("images/CWA_logo_hq.png");
+  width: 210px;
+  height: 110px;
+}
+
+#enroll-button {
+  font-size: 14px;
+  padding: 6px;
+  display: block;
+  border: solid 3px #ec5242;
+}
+
+#user-menu li {
+  font-size: 12px;
+}
+
+.menu-element {
+  font-size: 14px;
+}
+
+#home {
+  height: 100vh;
+}
+
+#home-bg-container {
+  height: 100%;
+}
+
+#main-message {
+  font-size: 5vw;
+  width: 80%;
+}
+
+#greeting-message {
+  font-size: 3vw;
+}
+
+#home-content-container {
+  width: 66%;
+}
+
+#det-message-container {
+  width: 65%;
+  padding: 18px 12px;
+}
+
+#date-message {
+  font-size: 32px;
+}
+
+#location-message {
+  font-size: 20px;
+}
+
+#det-message {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#program-container {
+  height: 48vh;
+  gap: 66px;
+}
+
+#program-cards-container {
+  display: grid;
+  gap: 10px;
+  width: 60%;
+  height: 45%;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.pr-card {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pr-heading {
+  text-align: center;
+}
+
+.pr-desc-text {
+  text-align: center;
+  padding-right: 0;
+  width: 95%;
+  line-height: 20px;
+}
+
+.pr-card-icon {
+  padding-left: 0;
+}
+
+#pr-card1 {
+  grid-row: unset;
+  grid-column: 1/2;
+}
+
+#pr-card2 {
+  grid-row: unset;
+  grid-column: 2/3;
+}
+
+.pr-card3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.pr-card4 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.pr-card5 {
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+
+#program-link {
+  display: block;
+}
+
+#speaker-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 24px;
+  column-gap: 12px;
+  width: 80%;
+}
+
+.speaker-card {
+  border: none;
+}
+
+#speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0 48px 0;
+  gap: 24px;
+}
+
+#indicator2 {
+  width: 30%;
+}
+
+#indicator4 {
+  width: 3%;
+}
+
+#heading-container,
+#heading-container2,
+#heading-container3 {
+  gap: 17px;
+}
+
+#partners {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#partner-logo-container {
+  flex-direction: row;
+  justify-content: center;
+  gap: 6px;
+}
+
+.partner-logo {
+  width: 16.6666667vw;
+  max-width: 236px;
+}
